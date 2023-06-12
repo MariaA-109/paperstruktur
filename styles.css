@@ -56,7 +56,6 @@ header {
     height: 90vh
 }
 
-
 .header-stage-section {
     padding-left: 1rem;
     /* padding-right: 15rem; */
@@ -81,7 +80,6 @@ header {
     font-weight: 400;
 
 }
-
 
 .header-bottom {
     background-image: url("img/header-stage-bottom.png");
@@ -515,3 +513,50 @@ html {
 
 /* End Section 4 */ 
 
+/* Start Section 5 */
+
+.section5-footer-container {
+  padding: 3rem 0;
+  background-color: #b2c8b5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.section5-footer-copyrigth {
+  background-color: #ededea;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.section5-spacebetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#section5-shopnow {
+  border: none;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: black;
+  color: #b2c8b5;
+  padding: 0.5rem 3rem;
+}
+
+#section5-buttonig {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1.25rem;
+}
+
+#section5-subscribe {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+/* End Section 5 */
