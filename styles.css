@@ -1,6 +1,122 @@
-/* Start Section 1  */
+/* Start Section 1 */ 
 
-/* End Section 1  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600&display=swap');
+
+
+.header-wrapper {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-shopping {
+    display: flex;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 3rem;
+} 
+
+.header-shopping img {
+    padding-left: 0.5rem
+}
+
+.header-logo {
+    padding-left: 3rem;
+}
+
+
+.header-top {
+    background-image: url("/img/header-stage-top.png");
+    background-repeat: no-repeat;
+    /* background-size: 100vh; */
+    background-size: cover;
+    background-position: bottom;
+    height: 90vh
+}
+
+
+.header-stage-section {
+    padding-left: 1rem;
+    /* padding-right: 15rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: baseline;
+    margin-bottom: 0;
+    padding-top: 7rem;
+    /* width: auto; */
+}
+
+.header-stage-section h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    padding-right: 1rem;
+}
+.header-stage-section h3 {
+    /* white-space: nowrap; */
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+
+
+.header-bottom {
+    background-image: url("img/header-stage-bottom.png");
+    height: 25rem;
+    margin-top: 0;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-stage-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    text-transform: uppercase;
+    padding-top: 5rem;
+}
+
+.header-text-top {
+    width: auto;
+}
+
+.header-text-bottom {
+    padding-left: 7rem;
+    width: auto;
+}
+
+/* End Section 1 */ 
 
 /* Start Section 2 */ 
 @import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down.css');
@@ -61,13 +177,6 @@ background-color: #edede9;
     gap: 20px;
 }
 
-.container1 {
-
-}
-.container2 {
-
-}
-
 .container3 {
     display: flex;
     height: 100%;
@@ -84,10 +193,6 @@ background-color: #edede9;
     flex-direction: column;
     justify-content: space-between;
     height: 10%;
-}
-
-.container3_overlay-text {
-
 }
 
 .container3_overlay-button {
@@ -410,6 +515,3 @@ html {
 
 /* End Section 4 */ 
 
-/* Start Section 5 /* 
-
-/* End Section 5 /* 
