@@ -1,14 +1,123 @@
-/* Start Section 1 /* 
+/* Start Section 1  */
 
-/* End Section 1 /* 
+/* End Section 1  */
 
-/* Start Section 2 /* 
+/* Start Section  */
+/* 
+End Section   */
 
-/* End Section 2 /* 
+/* Start Section 3  */
+.section-1-paper-container {
+/* border: 1px solid blue; */
+padding: 1rem;
 
-/* Start Section 3 /* 
 
-/* End Section 3 /* 
+}
+.section-1-title {
+/* border: 1px solid blueviolet; */
+font-size: 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0rem 2rem 0rem 2rem;
+}
+
+.section-1-underline {
+width: 6rem;
+border-top: 2px solid black;
+}
+.section-1-subtitle {
+font-size: 1.3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2rem;
+}
+.section-1-circle-container {
+/* border: 1px solid red; */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 1rem;
+}
+.section-1-orange {
+background-color: #fdad7a;
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+
+}
+.section-1-green {
+background-color: #aac9b7;
+width: 10rem;
+border-radius: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+mix-blend-mode: multiply;
+}
+.section-1-price {
+padding-top: 1rem;
+
+}
+.section-1-recycle{
+padding-bottom: 1rem;
+font-size: 0.8rem;
+}
+.section-1-buy{
+font-size: 0.6rem;
+}
+.section-1-underline-2 {
+width: 2.9rem;
+margin: 0;
+border: 1px solid #7d9988;
+}
+.section-1-blue {
+background-color:#b5c1da;
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+}
+.section-1-carousel {
+/* border: 1px solid orange; */
+display: flex;
+justify-content: center;
+gap: 1rem;
+padding: 2rem;
+}
+.section-1-black {
+background-color: black;
+border: 1px solid black;
+width: 0.5rem;
+height: 0.5rem;
+border-radius: 50%;
+}
+
+.section-1-white {
+background-color: white;
+ border: 1px solid #c0c0c0;
+width: 0.5rem;
+height: 0.5rem;
+border-radius: 50%;
+}
+
+.section-1-sample-container {
+background-color: #a8c7b5;
+height: 30vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.section-1-sample-section {
+color: #a8c7b5;
+font-size: 1.7rem;
+border: 0.7px solid white;
+background-color: black;
+width:max-content;
+padding: 0.6rem;
+}
+/* End Section 3  */
 
 /* Start Section 4 /* 
 
