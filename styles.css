@@ -1,19 +1,157 @@
-/* Start Section 1 /* 
+/* Start Section 1 */
 
-/* End Section 1 /* 
+/* End Section 1 */ 
 
-/* Start Section 2 /* 
+/* Start Section 2 */ 
 
-/* End Section 2 /* 
+/* End Section 2 */ 
 
-/* Start Section 3 /* 
+/* Start Section 3 */ 
 
-/* End Section 3 /* 
+/* End Section 3 */
 
-/* Start Section 4 /* 
+/* Start Section 4 */ 
 
-/* End Section 4 /* 
 
-/* Start Section 5 /* 
+html {
+    margin: 0;
+    padding: 0;
+}
 
-/* End Section 5 /* 
+.blue-container {
+    position: relative;
+    margin-left: 30px;
+
+  }
+
+  .blue-background {
+    width: 100%;
+    height: auto;
+  }
+  
+  .rectangle-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .icon-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .icon-item {
+    text-align: center;
+  }
+  
+  .icon-pay,
+  .icon-shipping,
+  .icon-purchase {
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    width: 50%;
+  }
+  
+  .image-text {
+    margin-top: 40px;
+    font-size: 40px;
+    color: #231f20;
+    font-weight: 700;
+    font-family: Noto Sans;
+    text-align: center;
+  }
+
+  .form-container {
+    background-color: #b5bed7;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  
+  form {
+    
+    top: 10%;
+    left: 2%;
+    right: 10%;
+    padding: 20px;
+    z-index: 2;
+    font-family: Noto Sans;
+  }
+  
+  form .name,
+  form .email,
+  form .message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    bottom: 10%;
+  }
+  
+  form label {
+    width: 100px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    flex: 1;
+  }
+  
+  form textarea {
+    flex: 1;
+    resize: vertical; 
+    min-height: 200px; 
+  }
+  
+  
+.button-container {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.cv {
+    border-radius: 10px;
+    width: 150px;
+    height: 39px;
+    background-color: #3f4861;
+    color: white;
+  }
+  .add {
+    border-radius: 10px;
+    width: 150px;
+    height: 39px;
+    background-color: #3f4861;
+    color: white;
+  }
+  .send {
+    border-radius: 10px;
+    width: 150px;
+    height: 39px;
+    background-color: #000000;
+    color: white;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .image-text {
+      font-size: 14px;
+    }
+  }
+
+/* End Section 4 */
+
+/* Start Section 5 */ 
+
+/* End Section 5 */ 
